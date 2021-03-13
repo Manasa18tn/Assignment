@@ -1,0 +1,13 @@
+for(i = 1:1 <=n. I = 1*2)
+	for j= 1;j<=i; j++) 	
+		print("Hello")
+
+
+
+Line 1 will run log n times. The time complexity is O(log n).
+
+Line 2, the inner loop will run a max of n-1 times for each outer loop . Time complexity is O(n-1) = O(n)
+
+Line 3 is of constant complexity O(1).
+
+Total  is O(log n) * O(n) * O(1) = O(n log n)
